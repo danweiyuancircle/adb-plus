@@ -2,11 +2,12 @@
   <img src="build/icon.png" width="128">
 </div>
 
-<h1 align="center">AYAPlus</h1>
+<h1 align="center">ADBPlus</h1>
 
 <div align="center">
 
 An enhanced fork of [AYA](https://github.com/liriliri/aya) — Android ADB desktop app with additional features.
+This repository is a fork of [AYA](https://github.com/liriliri/aya) with extra ADB tooling and desktop workflow improvements.
 
 **English** | [中文](README_ZH.md)
 
@@ -33,7 +34,7 @@ An enhanced fork of [AYA](https://github.com/liriliri/aya) — Android ADB deskt
   </tr>
 </table>
 
-## New in AYAPlus
+## New in ADBPlus
 
 * **Screencast keyboard input**: Full keyboard support during screen mirroring — letters, digits, arrow keys, ESC (as Back), F1–F12, Tab, and more.
 * **Independent remote controller window**: TV remote runs as a separate window, allowing simultaneous operation with the main interface.
@@ -53,22 +54,22 @@ An enhanced fork of [AYA](https://github.com/liriliri/aya) — Android ADB deskt
 
 | Platform | File |
 |----------|------|
-| macOS (Intel) | `AYAPlus-x.x.x-mac-x64.dmg` |
-| macOS (Apple Silicon) | `AYAPlus-x.x.x-mac-arm64.dmg` |
-| Windows | `AYAPlus-x.x.x-win-x64.exe` |
-| Linux | `AYAPlus-x.x.x-linux-x64.AppImage` |
+| macOS (Intel) | `ADBPlus-x.x.x-mac-x64.dmg` |
+| macOS (Apple Silicon) | `ADBPlus-x.x.x-mac-arm64.dmg` |
+| Windows | `ADBPlus-x.x.x-win-x64.exe` |
+| Linux | `ADBPlus-x.x.x-linux-x64.AppImage` |
 
-Download from [GitHub Releases](https://github.com/danweiyuancircle/aya_plus/releases).
+Download from [GitHub Releases](https://github.com/danweiyuancircle/adb-plus/releases).
 
 > **Note for macOS (Apple Silicon):** The app is unsigned, so macOS will block it on first launch. Run the following command to allow it:
 >
 > ```bash
-> sudo xattr -d com.apple.quarantine /Applications/AYAPlus.app
+> sudo xattr -d com.apple.quarantine /Applications/ADBPlus.app
 > ```
 
 ## Acknowledgements
 
-AYAPlus is built on top of [AYA](https://github.com/liriliri/aya) by [surunzi](https://github.com/liriliri). Huge thanks for creating such a great open-source ADB GUI tool!
+ADBPlus is forked from [AYA](https://github.com/liriliri/aya) by [surunzi](https://github.com/liriliri) and enhanced for richer ADB desktop workflows. Huge thanks for creating such a great open-source ADB GUI tool!
 
 ---
 

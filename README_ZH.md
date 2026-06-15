@@ -2,11 +2,12 @@
   <img src="build/icon.png" width="128">
 </div>
 
-<h1 align="center">AYAPlus</h1>
+<h1 align="center">ADBPlus</h1>
 
 <div align="center">
 
 [AYA](https://github.com/liriliri/aya) 的增强版 — 带有更多功能的 Android ADB 桌面应用。
+本仓库 fork 自 [AYA](https://github.com/liriliri/aya)，在原项目基础上补充更多 ADB 工具和桌面工作流增强。
 
 **中文** | [English](README.md)
 
@@ -33,7 +34,7 @@
   </tr>
 </table>
 
-## AYAPlus 新增功能
+## ADBPlus 新增功能
 
 * **投屏键盘输入**：屏幕投射时支持完整键盘输入 — 字母、数字、方向键、ESC（返回）、F1–F12、Tab 等。
 * **独立遥控器窗口**：电视遥控器作为独立窗口运行，可与主界面同时操作。
@@ -53,22 +54,22 @@
 
 | 平台 | 文件名 |
 |------|--------|
-| macOS (Intel) | `AYAPlus-x.x.x-mac-x64.dmg` |
-| macOS (Apple Silicon) | `AYAPlus-x.x.x-mac-arm64.dmg` |
-| Windows | `AYAPlus-x.x.x-win-x64.exe` |
-| Linux | `AYAPlus-x.x.x-linux-x64.AppImage` |
+| macOS (Intel) | `ADBPlus-x.x.x-mac-x64.dmg` |
+| macOS (Apple Silicon) | `ADBPlus-x.x.x-mac-arm64.dmg` |
+| Windows | `ADBPlus-x.x.x-win-x64.exe` |
+| Linux | `ADBPlus-x.x.x-linux-x64.AppImage` |
 
-从 [GitHub Releases](https://github.com/danweiyuancircle/aya_plus/releases) 下载。
+从 [GitHub Releases](https://github.com/danweiyuancircle/adb-plus/releases) 下载。
 
 > **macOS（Apple 芯片）注意事项：** 应用未签名，macOS 首次启动时会报错。请执行以下命令进行授权：
 >
 > ```bash
-> sudo xattr -d com.apple.quarantine /Applications/AYAPlus.app
+> sudo xattr -d com.apple.quarantine /Applications/ADBPlus.app
 > ```
 
 ## 致谢
 
-AYAPlus 基于 [surunzi](https://github.com/liriliri) 开发的 [AYA](https://github.com/liriliri/aya) 构建。感谢创建了如此优秀的开源 ADB GUI 工具！
+ADBPlus fork 自 [surunzi](https://github.com/liriliri) 开发的 [AYA](https://github.com/liriliri/aya)，并在其基础上增强。感谢创建了如此优秀的开源 ADB GUI 工具！
 
 ---
 
