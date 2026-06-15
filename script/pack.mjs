@@ -29,11 +29,16 @@ const config = {
     installerSidebar: 'build/installerSidebar.bmp',
   },
   win: {
+    icon: 'build/icon.ico',
     target: [
       {
         target: 'nsis',
       },
     ],
+  },
+  linux: {
+    category: 'Utility',
+    icon: 'build/icon.png',
   },
   mac: {
     electronLanguages: ['zh_CN', 'en'],
