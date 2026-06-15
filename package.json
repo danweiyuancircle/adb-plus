@@ -2,7 +2,7 @@
   "name": "adb-plus",
   "productName": "ADBPlus",
   "appId": "io.liriliri.ayaai",
-  "version": "1.19.1",
+  "version": "1.19.2",
   "description": "Android adb desktop app",
   "main": "dist/main/index.js",
   "scripts": {

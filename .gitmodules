@@ -1,6 +1,6 @@
 [submodule "src/share"]
 	path = src/share
-	url = https://github.com/liriliri/electron-share.git
+	url = https://github.com/danweiyuancircle/electron-share.git
 [submodule "src/renderer/icon"]
 	path = src/renderer/icon
 	url = https://github.com/liriliri/icon-share.git
